@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_FILE="/path/to/access.log"  # Replace with the path to your web server log file
+LOG_FILE="/var/log/nginx/access.log"  # Replace with the path to your web server log file
 
 analyze_logs() {
     # Check if the log file exists
